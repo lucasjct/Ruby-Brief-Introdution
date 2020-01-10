@@ -8,7 +8,6 @@ while x <= 10
     x+=1 #esta expressão incrementa a variável "x"
 end
 
-
 i = 30
 
 until i==1
