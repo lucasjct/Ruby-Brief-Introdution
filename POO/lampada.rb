@@ -7,7 +7,6 @@ class Lampada
         ligar = gets
 
         case ligar 
-        
         when "on"
             puts "Lâmpada acessa"
         when "off"
