@@ -31,6 +31,7 @@ jobs:
           command: |
             bundle install --jobs=4 --retry=3 --path vendor/bundle
 
+
       - save_cache:
           paths:
             - ./vendor/bundle
@@ -44,6 +45,7 @@ jobs:
       - run:
           name: run tests
           command: |
+            google-chrome -new-tab "https://circleci.com/gh/lucasjct/workflows/Ruby-Brief-Introdution"
             mkdir /tmp/test-results
             TEST_FILES="$(circleci tests glob "spec/**/*_spec.rb" | \
               circleci tests split --split-by=timings)"
