@@ -1,6 +1,5 @@
 class Lampada
 
-
     def opcao
         puts "Digite [on] para ligar ou [off] desligar."
 
