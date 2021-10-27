@@ -10,7 +10,7 @@ tasks:
 
 vscode:
   extensions: 
-    -  "redhat.vscode-yaml"
+    - "redhat.vscode-yaml"
     - "tamasfe.even-better-toml"
     - "alexcvzz.vscode-sqlite"
     - "jdinhlife.gruvbox"
