@@ -5,7 +5,7 @@
 
 numbers = {a: 10, b: 30, c: 20, d: 25, e: 15}
 
-# a variável starta com um valor 0 pra poder fazer a comparação e encontrar o valor maior
+# a variável starta com um valor 0 pra poder fazer a comparação e encontrar o valor que seja maior
 high_value = 0
 high_key = ""
 
