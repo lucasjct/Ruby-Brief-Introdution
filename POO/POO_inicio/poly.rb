@@ -19,13 +19,11 @@ class Caneta < Instrumento
     end
 end
 
-caneta = Caneta.new
-lapis = Lapis.new
-teclado = Teclado.new
+instrumentos = [Caneta.new, Lapis.new, Teclado.new]
 
-caneta.escrever
-lapis.escrever
-teclado.escrever
+instrumentos.each do |instrumento|
+    instrumento.escrever
+end
 
 # Com polimorfismo, posso sobrescrever um método de outra classe na classe filha.
 # No caso acima, o método sobrescrito foi "escrever" herdado da classe instrumento
