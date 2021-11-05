@@ -25,12 +25,8 @@
 # No final do programa execute os métodos competir e correr em objetos do tipo JogadorDeFutebol e Maratonista.
 
 class Esportista
-    def correr
-        puts "Estou correndo"
-    end
-
     def competir
-        puts "Pronto para competir"
+        puts "Participando de uma competição"
     end
 end
 
@@ -38,18 +34,11 @@ class JogadorDeFutebol < Esportista
     def correr 
         puts "Correndo atrás da bola"
     end
-    def competir
-        puts "Pronto para vencer"
-    end
 end
 
 class Maratonista < Esportista
     def correr
-        puts "Correndo para a linha de chegada"
-    end
-
-    def competir
-        puts "Pronto para cruzar a linha"
+        puts "Percorrendo o circuito"
     end
 end
 
