@@ -23,3 +23,6 @@ baz.bax
 baz.bax
 
 puts $global
+
+# Talvez seja uma boa solução para testes que compartilham o mesmo token gerado a partir de uma requisição.
+# Porque, como o arquivo global.rb, posso chamar essa variável em outro escopo.
