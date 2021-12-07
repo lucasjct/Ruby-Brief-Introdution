@@ -40,6 +40,7 @@ end
 jogador = JogadorDeFutebol.new
 maratonista = Maratonista.new
 
+# instanciando objetos numa lista e utilizando seu métodos a partir de um 'each'
 esportistas = [jogador, maratonista]
 
 esportistas.each do |esportista|
